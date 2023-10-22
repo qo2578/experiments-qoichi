@@ -4,7 +4,7 @@ import "../../index.css";
 const Info = () => {
   return (
     <div className="info-content">
-      Технические навыки: <br />
+  
       Языки Программирования: JavaScript, TypeScript <br />
       Фреймворк и Библиотеки: React.js, Redux, Next.js, Vue 3 <br />
       Веб-технологии: HTML5, CSS3(SCSS, Sass) <br />
