@@ -17,8 +17,8 @@ body.dark-mode {
 
 .border {
   border: 3px solid black;
-  height: 41.9rem;
-  margin: 2rem;
+  height: 43.9rem;
+  margin: 0 2rem 2rem 2rem;
 }
 
 .border.dark-mode {
@@ -26,6 +26,7 @@ body.dark-mode {
 }
 
 .btn {
+  margin: 10px 0 10px 30px;
   background: black;
   color: white;
 }
@@ -166,7 +167,7 @@ body,
   padding: 150px 30px 0 0;
   line-height: 40px;
 }
-.contact-content{
+.contact-content {
   padding: 150px 30px 0 0;
   line-height: 40px;
 }
