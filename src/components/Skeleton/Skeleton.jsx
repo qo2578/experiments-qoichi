@@ -10,6 +10,7 @@ import Projects from "../Projects/Projects";
 import Info from "../Info/Info";
 import Contact from "../Contact/Contact";
 import Animation from "./Animation";
+import SplashScreen from "./SplashScreen";
 import "../../index.css";
 
 const Skeleton = () => {
@@ -22,6 +23,7 @@ const Skeleton = () => {
 
   return (
     <div>
+      <SplashScreen />
       <Router>
         <div>
           {" "}
@@ -76,7 +78,7 @@ const Skeleton = () => {
               <div className="content-container">
                 <Routes>
                   <Route exact path="/" element={<Home />} />
-                  <Route path="/projects" element={<Projects />} />
+                  <Route path="/projects" element={<Projects darkMode={darkMode} />} />
                   <Route path="/info" element={<Info />} />
                   <Route path="/contact" element={<Contact />} />
                 </Routes>

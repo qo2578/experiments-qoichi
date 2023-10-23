@@ -4,10 +4,10 @@ import "../../index.css";
 const Home = () => {
   return (
     <div className="home-content">
-      Я родилась в 2004 году и являюсь <br /> Front-end разработчиком с опытом работы
-      более 2 лет. <br /> За это время я освоила создание надежного кода <br /> для веб-сайтов
-      и активно применяла практический подход. <br /> Мне нравится изучать новые
-      технологии <br /> и быстро адаптироваться к новым идеям.
+      I was born in 2004 and <br /> am a Front-end developer <br /> with over 2 years of
+      experience.<br /> During this time, I have mastered  <br />the creation of reliable
+      code for websites <br /> and actively applied a practical <br /> approach. I enjoy
+      exploring new <br /> technologies and quickly adapting <br /> to new ideas.
     </div>
   );
 };

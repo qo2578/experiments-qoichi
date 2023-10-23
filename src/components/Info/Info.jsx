@@ -4,15 +4,14 @@ import "../../index.css";
 const Info = () => {
   return (
     <div className="info-content">
-  
-      Языки Программирования: JavaScript, TypeScript <br />
-      Фреймворк и Библиотеки: React.js, Redux, Next.js, Vue 3 <br />
-      Веб-технологии: HTML5, CSS3(SCSS, Sass) <br />
-      Инструменты: Node.js, Git, Webpack <br />
-      Доп. Библиотеки: Bootstrap, jQuery, Tailwind, Ant Design <br />
-       Работа
-      с API: Запросы к серверу, обработка данных
-    </div>
+    <span>Programming Languages:</span> JavaScript, TypeScript <br />
+    <span>Frameworks:</span> React js, Redux, Next js<br />
+    <span>Libraries:</span> Bootstrap, jQuery, Tailwind, Ant Design <br />
+    <span>Web Technologies:</span> HTML5, CSS3<br />
+    <span>Tools:</span> Node js, Git, Webpack, Vite <br />
+    <span>API Interaction:</span> Server requests, data handling <br />
+    <span>Backend & Cloud Services:</span> Firebase
+  </div>
   );
 };
 
