@@ -8,6 +8,10 @@ import slide2 from "../../images/slide2.png";
 import slide3 from "../../images/slide3.png";
 import slide4 from "../../images/slide4.png";
 import slide5 from "../../images/slide5.png";
+import slide6 from "../../images/slide6.png";
+import slide7 from "../../images/slide7.png";
+import slide8 from "../../images/slide8.png";
+
 
 const Projects = ({ darkMode }) => {
   const settings = {
@@ -33,6 +37,9 @@ const Projects = ({ darkMode }) => {
             <img src={slide2} alt="Описание слайда 2" />
           </div>
           <div className="carousel-slide">
+            <img src={slide7} alt="Описание слайда 7" />
+          </div>
+          <div className="carousel-slide">
             <img src={slide3} alt="Описание слайда 3" />
           </div>
           <div className="carousel-slide">
@@ -41,7 +48,43 @@ const Projects = ({ darkMode }) => {
           <div className="carousel-slide">
             <img src={slide5} alt="Описание слайда 5" />
           </div>
+          <div className="carousel-slide">
+            <img src={slide8} alt="Описание слайда 8" />
+          </div>
+          <div className="carousel-slide">
+            <img src={slide6} alt="Описание слайда 6" />
+          </div>
+
         </Slider>
+      </div>
+      <div>
+  <div className="box-project">
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+  <a href="https://stroy-mu.vercel.app/" target="_blank" rel="noopener noreferrer" className='link-project'>Stroyka Store
+    </a>
+    <a href="https://dananz-gilt.vercel.app/" target="_blank" rel="noopener noreferrer" className='link-project'>Dananz
+    </a>
+    <a href="https://u-source.vercel.app/" target="_blank" rel="noopener noreferrer" className='link-project'>U Source
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" className='link-project'>Tomorrow Techs
+    </a>
+    <a href="https://macaronshop.ru/" target="_blank" rel="noopener noreferrer" className='link-project'>Macaron Shop
+    </a>
+    <a href="https://bronirui-online.ru/shakhmatka" target="_blank" rel="noopener noreferrer" className='link-project'>Бронируй онлайн
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" className='link-project'>Tandyr Et
+    </a>
+    <a href="https://starwars-eight.vercel.app/" target="_blank" rel="noopener noreferrer" className='link-project'>StarWars
+    </a>
+    <a href="" target="_blank" rel="noopener noreferrer" className='link-project'>SMPL-3D-OBJ
+    </a>
+  </div>
       </div>
     </div>
   );

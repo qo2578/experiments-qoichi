@@ -39,7 +39,7 @@ const Skeleton = () => {
             <h2 className="title-name">
             Iskenderova Aiperi
             </h2>
-            <div className="container">
+            <div className="div-container">
               <nav className="nav-container">
                 <NavLink
                   to="/"

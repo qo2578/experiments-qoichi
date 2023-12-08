@@ -67,8 +67,10 @@ body.dark-mode::before {
 }
 
 .title-name {
-  font-size: 40px;
+  font-size: 50px;
+  font-weight: 300;
   padding-left: 40px;
+  width: 500px;
 }
 
 body,
@@ -163,7 +165,13 @@ body,
   gap: 20px;
   padding: 20px 0 0 40px;
 }
-
+.div-container{
+  width: 500px;
+  display: flex;
+  flex-direction: row;
+  gap: 1000px;
+  position: relative;
+}
 .link {
   text-decoration: none;
   color: inherit;
@@ -274,6 +282,35 @@ body,
 .splashScreen-hidden {
   opacity: 0;
   pointer-events: none; /* Чтобы пользователь мог взаимодействовать с контентом под заставкой, когда она исчезает */
+}
+
+.link-project{
+  text-decoration: none;
+  color: inherit;
+  font-weight: 300;
+  font-size: 60px;
+  margin-bottom: 10px;
+  margin-left: auto;
+}
+.link-project:hover {
+  text-decoration: none;
+  color: rgb(105, 105, 105);
+  font-weight: 300;
+}
+.box-project{
+  display: flex;
+  flex-direction: column;
+  max-height: 705px;
+  width: 500px;
+  overflow-y: auto;
+  position: fixed; 
+  top: 44px;
+  right: 50px;
+  scrollbar-width: none;
+  /* justify-content: flex-end; */
+}
+.box-project::-webkit-scrollbar {
+  display: none; /* Скрываем бегунок для веб-кит браузеров (Chrome, Safari) */
 }
 
 
