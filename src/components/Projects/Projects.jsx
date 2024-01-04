@@ -128,20 +128,12 @@ const Projects = ({ darkMode }) => {
             <span>Online menu</span>Tandyr Et
           </a>
           <a
-            href="https://starwars-eight.vercel.app/"
+            href="https://3d-donut-vert.vercel.app/"
             target="_blank"
             rel="noopener noreferrer"
             className="link-project"
           >
-            <span>HTTP</span>StarWars
-          </a>
-          <a
-            href=""
-            target="_blank"
-            rel="noopener noreferrer"
-            className="link-project"
-          >
-            <span>Three.js model</span>SMPL-3D-OBJ
+            <span>Three.js model</span>3D Donut
           </a>
         </div>
       </div>
